@@ -1,5 +1,6 @@
 Project name =" QUORA MODEL WEBSITE"(with small functionalities).
 Project type=Mini.
+Programming languages used= HTML , JavaScript, CSS
 packages used:
     1 . Node = version-v20.11.1
     2 . npm =  version- 10.2.4

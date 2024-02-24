@@ -1,0 +1,20 @@
+#main{
+    
+    background-color: rgb(171, 216, 218);
+}
+
+h1{
+    color:maroon;
+    
+}
+
+a{
+    color: blue;
+}
+h3{
+    color: rgb(131, 24, 74);
+}
+textarea{
+    height: 240px;
+    width: 500px;
+}

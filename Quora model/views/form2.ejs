@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <div align="center">
+        <!-- <h1>Profile of <%=post.username%></h1>
+        <h3><%= post.username %></h3>
+        <h8><%= post.id %></h8> -->
+        
+        <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+            <h1><%= post.username %></h1>
+        <h4><%= post.id %></h4>
+        <textarea name="descript"> <%= post.descript %> </textarea> <br><br>
+        <a href="http://localhost:8080/posts">Back</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <button>Commit</button>
+       </form>
+
+        
+    </div>
+</body>
+</html> 
